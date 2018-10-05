@@ -1,0 +1,12 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "paths": {
+            "*": ["node_modules/*", "__tests__/*"]
+        }
+    },
+    "include": [
+        "src/**/*",
+        "__tests__/**/*"
+    ]
+}
